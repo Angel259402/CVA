@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #eaebef;
+}
+
+
+.nav{
+  width: 300px;
+}
+
+.nav_link{
+  color: #303440;
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.list{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0 16px 16px 0;
+  background-image: linear-gradient(to top, rgba(48, 208, 208, 0.504) 0%, rgba(51, 8, 103, 0.51) 100%);
+}
+
+.list__item{
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.list_button{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+.contenedor-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 20px; /* espacio entre imagen y texto */
+  padding: 20px;
+  max-width: 800px;
+  text-align: left;
+}
+
+.foto-cerca {
+  width: 170px;
+  height: 170px;
+
+}
+
+.info-texto {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png");
+  background-repeat: repeat;
+}
+
